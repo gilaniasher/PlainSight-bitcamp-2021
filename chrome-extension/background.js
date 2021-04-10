@@ -1,13 +1,15 @@
-
-var id = 100;
-
-
 chrome.runtime.onInstalled.addListener(function() {
     chrome.browserAction.onClicked.addListener(function(tab) {
-        alert('clicked')
         chrome.tabs.captureVisibleTab(function(screenshotUrl) {
-            console.log(screenshotUrl)
-            alert('Sent')
+            //fetch("https://us-central1-bitcamp-2021-310314.cloudfunctions.net/detect-face",{
+            //    method: 'POST',
+            //    body : screenshotUrl
+            //})
+            
+            chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+                //chrome.tabs.sendMessage(tabs[0].id, {msg: "animation"}, function(response) {});
+                chrome.tabs.sendMessage(tabs[0].id, {msg: "results"}, function(response) {});
+            });
         });
     });
 })
