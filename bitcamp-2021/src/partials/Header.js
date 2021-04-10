@@ -23,7 +23,7 @@ function Header() {
           <div className="flex-shrink-0 mr-4">
             {/*Logo*/}
             <Link to="/" className="block" aria-label="Cruip">
-              <h2 className="h2 mb-4 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
+              <h2 className="h2 mb-4 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out" >
                 OpenBio
               </h2 >                
             </Link>
@@ -32,6 +32,14 @@ function Header() {
           {/* Site navigation */}
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
+              <li>
+                <Link to='/' className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
+                  Home</Link>
+              </li>
+              <li>
+                <Link to='/about' className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
+                  About</Link>
+              </li>
               <li>
                 <Link to={{pathname:/*CHROME EXTENSION LINK*/""}} target="_blank" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
                   Chrome Extension</Link>

@@ -30,8 +30,8 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Thank you for downloading <br/>OpenBio Extension.</h1>
-            <p className="text-xl text-gray-600">Checkout our walkthrough tutorial below.</p>
+            <h1 className="h2 mb-4" id="head-h2">Thank you for downloading <br/>OpenBio Extension.</h1>
+            <p className="text-xl text-gray-600">Checkout our walkthrough tutorial below to get started.</p>
           </div>
 
           {/* Section content */}
@@ -40,11 +40,11 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Walkthrough Tutorial</h3>
-                <p className="text-xl text-gray-600">Use our interactive tutorial to setup OpenBio. Be sure grant access in order to view images on the page.</p>
+                <h3 className="h3 mb-3">Walkthrough</h3>
+                <p className="text-xl text-gray-600">Use our interactive tutorial to help setup OpenBio the way you want to. Be sure to grant access in order to view images on the page.</p>
               </div>
               {/* Tabs buttons */}
-              <div className="mb-8 md:mb-0">
+              <div className="mb-8 md:mb-1">
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
