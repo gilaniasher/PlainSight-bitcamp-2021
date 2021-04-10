@@ -1,0 +1,13 @@
+{
+    "name": "Getting Started Example",
+    "description": "Build an Extension!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "js": ["faceapi.js", "src.js"],
+        "matches": ["https://images.theconversation.com/files/274985/original/file-20190516-69189-xi009a.jpg?ixlib=rb-1.1.0&rect=0%2C75%2C840%2C767&q=45&auto=format&w=496&fit=clip"]
+    }]
+}
