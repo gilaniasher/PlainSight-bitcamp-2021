@@ -9,13 +9,13 @@ let create_box = async (box) => {
     child.style.top = `${box.top}px`;
     child.style.width = `${box.width}px`;
     child.style.height = `${box.height}px`;
-    child.src = './dead.png'
+    child.src = '/dead.png'
 
     document.body.appendChild( child )
 }
 
 let faces = async () => {
-    await faceapi.nets.ssdMobilenetv1.loadFromUri('./models')
+    await faceapi.nets.ssdMobilenetv1.loadFromUri('https://bitcamp-2021.s3.us-east-2.amazonaws.com/models/')
     console.log('start')
     const detections = await faceapi.detectAllFaces(canvas)
     detections.forEach(d => {create_box(d.box)})
