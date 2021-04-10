@@ -37,16 +37,30 @@
 
 .aaa-container{
     position: absolute;
-    background: transparent;
+    opacity: 0;
     z-index: 100000;
     transition: 0.3s all ease-in-out;
     border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
 }
 .aaa-container-flash{
     background: gray;
     opacity: 0.4;
 }
 .aaa-container:hover {
-    background: gray;
-    opacity: 0.4;
+    background: rgba(128, 128, 128, 0.315);
+    opacity: 1;
+}
+
+.aaa-infobox {
+    line-height: 1;
+    text-align: left;
+    font-weight: normal;
+    position: absolute;
+    background: white;
+    padding: 15px;
+    box-shadow: 6px 6px 15px 0 #8e8e8e;
+    border-radius: 5px;
 }
