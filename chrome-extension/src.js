@@ -24,9 +24,7 @@ chrome.runtime.onMessage.addListener(
         if ( request.msg == 'results'){
 
             let results = request.results;
-            /*results = [
-                { x : 400, y : 100, width: 100, height: 100, label : "This is joe", body : "A maternal insult, also referred to as a \"Yo mama\" joke, is a reference to a person's mother through the use of phrases such as \"your mother\" or other regional variants, frequently used to insult the target by way of their mother.[1] Used as an insult, \"your mother ...\" preys on widespread sentiments of filial piety,", link: "http://google.com" }
-            ]*/
+
             popup.classList.remove( 'aaa-popup-active' )
             document.body.removeChild(overlay)
             results.data.forEach( r => {
