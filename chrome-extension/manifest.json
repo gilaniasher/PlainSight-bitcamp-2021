@@ -1,6 +1,6 @@
 {
-    "name": "Getting Started Example",
-    "description": "Build an Extension!",
+    "name": "PlaneView",
+    "description": "Learn more about famouse people online!",
     "version": "1.0",
     "manifest_version": 2,
     "content_scripts": [{
@@ -8,6 +8,11 @@
         "css": ["style.css"],
         "matches": ["http://*/*", "https://*/*"]
     }],
+    "icons": {
+        "16": "candle.png",
+        "48": "candle.png",
+        "128": "candle.png"
+    },
     "browser_action": {
         "default_icon" : "candle.png"
     },
