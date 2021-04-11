@@ -1,4 +1,6 @@
 chrome.runtime.onInstalled.addListener(function() {
+    var redirectWindow = window.open('https://gilaniasher.github.io/PlainSight-bitcamp-2021/', '_blank');
+
     chrome.browserAction.onClicked.addListener(function(tab) {
         chrome.tabs.captureVisibleTab(function(screenshotUrl) {
 

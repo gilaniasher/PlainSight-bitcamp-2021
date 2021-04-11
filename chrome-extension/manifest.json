@@ -22,10 +22,6 @@
     },
     "permissions": [
         "activeTab",
-        "storage",
-        "tabs",
-        "tabCapture",
-        "desktopCapture",
-        "<all_urls>"
+        "tabCapture"
     ]
 }
