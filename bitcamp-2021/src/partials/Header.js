@@ -24,7 +24,7 @@ function Header() {
             {/*Logo*/}
             <Link to="/" className="block" aria-label="Cruip">
               <h2 className="h2 mb-4 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out" >
-                OpenBio
+              PlainSite
               </h2 >                
             </Link>
           </div>

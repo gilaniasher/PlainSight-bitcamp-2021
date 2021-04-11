@@ -3,59 +3,32 @@ import React from 'react';
 function Newsletter() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 md:py-16">
         <div className="pb-12 md:pb-20">
+          <div className="relative bg-white-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden" data-aos="zoom-y-out">
+          <div className=" flex flex-col lg:flex-row justify-between items-center">
+              <div className="relative md:px-12  text-center lg:text-left lg:max-w-xl" align="left">
+                <h3 className="h3 text-black mb-2">The <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Process.</span></h3>
+                <p className="text-black text-lg mb-6" >                  
+                PlainSight is implemented as a Google Chrome extension that captures an image of the current page and sends this to a Google Cloud Function. 
+                This function uses OpenCV to identify the faces in the image and their relative location. Then it sends these individual faces to Amazon Rekognition which labels these faces with the corresponding name. 
+                The Google Cloud Function takes these names and queries the Wikipedia API to get summarized information regarding the well-known figure. This is then presented to the user through the Chrome Extension.
 
-          {/* CTA box */}
-          <div className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden" data-aos="zoom-y-out">
-
-            {/* Background illustration */}
-            <div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" aria-hidden="true">
-              <svg width="428" height="328" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <radialGradient cx="35.542%" cy="34.553%" fx="35.542%" fy="34.553%" r="96.031%" id="ni-a">
-                    <stop stopColor="#DFDFDF" offset="0%" />
-                    <stop stopColor="#4C4C4C" offset="44.317%" />
-                    <stop stopColor="#333" offset="100%" />
-                  </radialGradient>
-                </defs>
-                <g fill="none" fillRule="evenodd">
-                  <g fill="#FFF">
-                    <ellipse fillOpacity=".04" cx="185" cy="15.576" rx="16" ry="15.576" />
-                    <ellipse fillOpacity=".24" cx="100" cy="68.402" rx="24" ry="23.364" />
-                    <ellipse fillOpacity=".12" cx="29" cy="251.231" rx="29" ry="28.231" />
-                    <ellipse fillOpacity=".64" cx="29" cy="251.231" rx="8" ry="7.788" />
-                    <ellipse fillOpacity=".12" cx="342" cy="31.303" rx="8" ry="7.788" />
-                    <ellipse fillOpacity=".48" cx="62" cy="126.811" rx="2" ry="1.947" />
-                    <ellipse fillOpacity=".12" cx="78" cy="7.072" rx="2" ry="1.947" />
-                    <ellipse fillOpacity=".64" cx="185" cy="15.576" rx="6" ry="5.841" />
-                  </g>
-                  <circle fill="url(#ni-a)" cx="276" cy="237" r="200" />
-                </g>
-              </svg>
-            </div>
-
-            <div className="relative flex flex-col lg:flex-row justify-between items-center">
-
-              {/* CTA content */}
-              <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Powering your business</h3>
-                <p className="text-gray-300 text-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit nemo expedita voluptas culpa sapiente.</p>
-
-                {/* CTA form */}
-                <form className="w-full lg:w-auto">
-                  <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
-                    <input type="email" className="w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
-                    <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Subscribe</a>
-                  </div>
-                  {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">7 days free trial. No credit card required.</p>
-                </form>
+                </p>
               </div>
-
+              <img className="mx-auto shadow-2xl mb-6" src={require('../images/Bitcamp_Project_Design.png')} width="500" height="340"/>
             </div>
 
+            <div className="relative md:px-12  text-center">
+                <h3 className="h3 text-black mb-2 lg:text-left lg:max-w-xl">Stay <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">informed.</span></h3>
+                <p className="text-black text-lg lg:text-left" >                  
+                So much information on the internet such as news articles or YouTube videos are gated by domain-specific knowledge which can make it difficult to follow. 
+                While users can always Google search for well-known figures, it can be exhausting to constantly be searching for reliable, unbiased information. 
+                This is especially true for users trying to get into politics, sports, or other communities with a high barrier of domain-knowledge.
+                We wanted to use computer vision to save our users Google searches by showing relevant information regarding political figures or celebrities as users browse the internet.
+                Our extension scans the page, identifies well-known figures, and provides relevant information in real-time.
+                </p>
+              </div>
           </div>
 
         </div>
