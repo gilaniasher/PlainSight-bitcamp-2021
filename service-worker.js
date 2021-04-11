@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PlainSight-bitcamp-2021/precache-manifest.641c0187cc3f66b5a5a241b4aeadf0bf.js"
+  "/PlainSight-bitcamp-2021/precache-manifest.bf64ace51a9ac9f31b9ac68f6bf258b3.js"
 );
 
 self.addEventListener('message', (event) => {
