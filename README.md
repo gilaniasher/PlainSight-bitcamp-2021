@@ -5,6 +5,8 @@
 - Quckly scan you screen for recognizable faces to provide useful information!
 - Made by `Asher Gilani` `John Murray` `Eric Robertson` for bitcamp 2021
 
+![](https://raw.githubusercontent.com/gilaniasher/PlainSight-bitcamp-2021/main/example.gif)
+
 ![](https://raw.githubusercontent.com/gilaniasher/PlainSight-bitcamp-2021/main/chrome-extension/example.png)
 
 ## Technologies
