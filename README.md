@@ -1,5 +1,7 @@
 # PlainSight
 
+[Clich kere for link to github.io website!](https://gilaniasher.github.io/PlainSight-bitcamp-2021/)
+
 - Quckly scan you screen for recognizable faces to provide useful information!
 - Made by `Asher Gilani` `John Murray` `Eric Robertson` for bitcamp 2021
 
