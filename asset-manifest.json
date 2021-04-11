@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PlainSight-bitcamp-2021/static/css/main.4278a500.chunk.css",
-    "main.js": "/PlainSight-bitcamp-2021/static/js/main.04dc7919.chunk.js",
-    "main.js.map": "/PlainSight-bitcamp-2021/static/js/main.04dc7919.chunk.js.map",
+    "main.js": "/PlainSight-bitcamp-2021/static/js/main.f6562919.chunk.js",
+    "main.js.map": "/PlainSight-bitcamp-2021/static/js/main.f6562919.chunk.js.map",
     "runtime-main.js": "/PlainSight-bitcamp-2021/static/js/runtime-main.4ec95067.js",
     "runtime-main.js.map": "/PlainSight-bitcamp-2021/static/js/runtime-main.4ec95067.js.map",
     "static/js/2.b54fbd94.chunk.js": "/PlainSight-bitcamp-2021/static/js/2.b54fbd94.chunk.js",
     "static/js/2.b54fbd94.chunk.js.map": "/PlainSight-bitcamp-2021/static/js/2.b54fbd94.chunk.js.map",
     "index.html": "/PlainSight-bitcamp-2021/index.html",
-    "precache-manifest.feb714c8689ced92183b465654ac4757.js": "/PlainSight-bitcamp-2021/precache-manifest.feb714c8689ced92183b465654ac4757.js",
+    "precache-manifest.641c0187cc3f66b5a5a241b4aeadf0bf.js": "/PlainSight-bitcamp-2021/precache-manifest.641c0187cc3f66b5a5a241b4aeadf0bf.js",
     "service-worker.js": "/PlainSight-bitcamp-2021/service-worker.js",
     "static/css/main.4278a500.chunk.css.map": "/PlainSight-bitcamp-2021/static/css/main.4278a500.chunk.css.map",
     "static/js/2.b54fbd94.chunk.js.LICENSE.txt": "/PlainSight-bitcamp-2021/static/js/2.b54fbd94.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.4ec95067.js",
     "static/js/2.b54fbd94.chunk.js",
     "static/css/main.4278a500.chunk.css",
-    "static/js/main.04dc7919.chunk.js"
+    "static/js/main.f6562919.chunk.js"
   ]
 }
