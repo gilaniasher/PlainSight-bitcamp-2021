@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/PlainSight-bitcamp-2021/static/css/main.4278a500.chunk.css",
-    "main.js": "/PlainSight-bitcamp-2021/static/js/main.3c3952d3.chunk.js",
-    "main.js.map": "/PlainSight-bitcamp-2021/static/js/main.3c3952d3.chunk.js.map",
+    "main.js": "/PlainSight-bitcamp-2021/static/js/main.468a7dfa.chunk.js",
+    "main.js.map": "/PlainSight-bitcamp-2021/static/js/main.468a7dfa.chunk.js.map",
     "runtime-main.js": "/PlainSight-bitcamp-2021/static/js/runtime-main.4ec95067.js",
     "runtime-main.js.map": "/PlainSight-bitcamp-2021/static/js/runtime-main.4ec95067.js.map",
     "static/js/2.9f1b7054.chunk.js": "/PlainSight-bitcamp-2021/static/js/2.9f1b7054.chunk.js",
     "static/js/2.9f1b7054.chunk.js.map": "/PlainSight-bitcamp-2021/static/js/2.9f1b7054.chunk.js.map",
     "index.html": "/PlainSight-bitcamp-2021/index.html",
-    "precache-manifest.e45a1e0f4db4ee7d372b225045606982.js": "/PlainSight-bitcamp-2021/precache-manifest.e45a1e0f4db4ee7d372b225045606982.js",
+    "precache-manifest.7d9e0fd762ad759ef9bc54b3f0d5b459.js": "/PlainSight-bitcamp-2021/precache-manifest.7d9e0fd762ad759ef9bc54b3f0d5b459.js",
     "service-worker.js": "/PlainSight-bitcamp-2021/service-worker.js",
     "static/css/main.4278a500.chunk.css.map": "/PlainSight-bitcamp-2021/static/css/main.4278a500.chunk.css.map",
     "static/js/2.9f1b7054.chunk.js.LICENSE.txt": "/PlainSight-bitcamp-2021/static/js/2.9f1b7054.chunk.js.LICENSE.txt",
-    "static/media/Bitcamp_Project_Design.png": "/PlainSight-bitcamp-2021/static/media/Bitcamp_Project_Design.a73d0ce5.png",
+    "static/media/Bitcamp_Project_Design.png": "/PlainSight-bitcamp-2021/static/media/Bitcamp_Project_Design.76d3d8a7.png",
     "static/media/features-bg.png": "/PlainSight-bitcamp-2021/static/media/features-bg.272e6086.png",
     "static/media/features_element(1).png": "/PlainSight-bitcamp-2021/static/media/features_element(1).e758c53e.png",
     "static/media/features_element(2).png": "/PlainSight-bitcamp-2021/static/media/features_element(2).cfb60c64.png",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.4ec95067.js",
     "static/js/2.9f1b7054.chunk.js",
     "static/css/main.4278a500.chunk.css",
-    "static/js/main.3c3952d3.chunk.js"
+    "static/js/main.468a7dfa.chunk.js"
   ]
 }

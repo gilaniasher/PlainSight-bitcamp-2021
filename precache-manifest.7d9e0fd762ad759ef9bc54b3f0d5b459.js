@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "155a698d70ab883a47431ab46134ff85",
+    "revision": "bdb745e787f9de4d129e0f09acb50500",
     "url": "/PlainSight-bitcamp-2021/index.html"
   },
   {
-    "revision": "cc21e0ccd89f61570753",
+    "revision": "c2fb19beb6da10f8e657",
     "url": "/PlainSight-bitcamp-2021/static/css/main.4278a500.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PlainSight-bitcamp-2021/static/js/2.9f1b7054.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc21e0ccd89f61570753",
-    "url": "/PlainSight-bitcamp-2021/static/js/main.3c3952d3.chunk.js"
+    "revision": "c2fb19beb6da10f8e657",
+    "url": "/PlainSight-bitcamp-2021/static/js/main.468a7dfa.chunk.js"
   },
   {
     "revision": "a56eb65bdd09570d6056",
     "url": "/PlainSight-bitcamp-2021/static/js/runtime-main.4ec95067.js"
   },
   {
-    "revision": "a73d0ce551adf6c6a37481ed12336723",
-    "url": "/PlainSight-bitcamp-2021/static/media/Bitcamp_Project_Design.a73d0ce5.png"
+    "revision": "76d3d8a7afdb76a1450b89571f32997f",
+    "url": "/PlainSight-bitcamp-2021/static/media/Bitcamp_Project_Design.76d3d8a7.png"
   },
   {
     "revision": "272e6086f5b51d587c48b9558579be90",
