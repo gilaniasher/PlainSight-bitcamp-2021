@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6e305c80c63fc9cb3f0b95201ae6e7c",
+    "revision": "c865542f72532548f84e1e9fdc16382c",
     "url": "/PlainSight-bitcamp-2021/index.html"
   },
   {
-    "revision": "98ffe71fae31c7c46139",
+    "revision": "e50f39b3e95e3b31c777",
     "url": "/PlainSight-bitcamp-2021/static/css/main.4278a500.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PlainSight-bitcamp-2021/static/js/2.b54fbd94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "98ffe71fae31c7c46139",
-    "url": "/PlainSight-bitcamp-2021/static/js/main.981b39c5.chunk.js"
+    "revision": "e50f39b3e95e3b31c777",
+    "url": "/PlainSight-bitcamp-2021/static/js/main.b24cb86f.chunk.js"
   },
   {
     "revision": "a56eb65bdd09570d6056",
