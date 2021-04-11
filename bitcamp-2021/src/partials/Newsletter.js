@@ -11,7 +11,7 @@ function Newsletter() {
                 <h3 className="h3 text-black mb-2">The <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Process.</span></h3>
                 <p className="text-black text-lg mb-6" >                  
                 PlainSight is implemented as a Google Chrome extension that captures an image of the current page and sends this to a Google Cloud Function. 
-                This function uses OpenCV to identify the faces in the image and their relative location. Then it sends these individual faces to Amazon Rekognition which labels these faces with the corresponding name. 
+                This function uses OpenCV to identify the faces in the image and their relative location. Then it sends these individual faces to the Google Reverse Image Search API which labels these faces with the corresponding name. 
                 The Google Cloud Function takes these names and queries the Wikipedia API to get summarized information regarding the well-known figure. This is then presented to the user through the Chrome Extension.
 
                 </p>
